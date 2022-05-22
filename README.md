@@ -16,7 +16,7 @@ Esta é uma aplicação desenvolvida durante a aula sobre Background jobs (filas
 - rode yarn dev para rodar a aplicação e a fila de jobs
 
 # Como testar 
-- Utilizando postman , insomnia ou qualquer outra paltaforma de API , faça uma requisição POST na rota http://localhost:3333/users passando como body JSON (name,email,password).
+- Utilizando postman , insomnia ou qualquer outra plataforma de API , faça uma requisição POST na rota http://localhost:3333/users passando como body JSON (name,email,password).
 - Verifique no console do seu Mailtrap recebeu o email (é importante verificar se no body foi passado o mesmo email que foi criado a conta no Mailtrap).
 - Na rota http://localhost:3333/admin/queues é possível acessar um painel onde se pode visualizar as informações de execução dos jobs.
 
