@@ -14,7 +14,7 @@ Esta é uma aplicação desenvolvida durante a aula sobre Background jobs (filas
 - na raiz do projeto rode "npm i" ou "yarn"
 - rode yarn dev para rodar a aplicação e a fila de jobs
 - Rode o comando abaixo para criar o container do banco de dados redis
-  docker run -d -p 6379:6379 -i -t redis:alpine
+  - docker run -d -p 6379:6379 -i -t redis:alpine
 
 ## Como testar 
 - Utilizando postman , insomnia ou qualquer outra plataforma de API , faça uma requisição POST na rota http://localhost:3333/users passando como body JSON (name,email,password).
